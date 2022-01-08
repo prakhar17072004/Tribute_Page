@@ -1,0 +1,56 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 50%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 80px) {
+  .column {
+    flex: 30%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 60px) {
+  .column {
+    flex: 60%;
+    max-width: 50%;
+  }
+}
+p {
+  color:golden;
+  margin: 0em;
+
+  width: 60%;
+  max-width: px;
+}
+ h1{
+color:red;
+
+ }
+ a{
+   color:green;
+ }
+ img{
+   width: 10%;
+ }
+ h2{
+   color:voilet;
+ }
+ 
+ 
